@@ -1,0 +1,9 @@
+[project]
+name = "infralens-ocr"
+version = "0.1.0"
+description = "AMD ROCm OCR with challenge adapter and infrastructure Asset Passports"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "app"]
+testpaths = ["tests"]
